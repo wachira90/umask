@@ -28,6 +28,14 @@ ubuntu@DESKTOP-MKE4SPH:~$
 /root/.bash_profile
 ```
 
+## how to setting
+
+place end file  relogin and test 
+
+```bash
+umask 0027
+```
+
 ### table setting general
 
 | Umask	File | result | Directory result |
