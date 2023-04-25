@@ -28,7 +28,7 @@ ubuntu@DESKTOP-MKE4SPH:~$
 /root/.bash_profile
 ```
 
-## how to setting
+## How to setting
 
 place end file  relogin and test 
 
@@ -36,7 +36,7 @@ place end file  relogin and test
 umask 0027
 ```
 
-### table setting general
+### Table setting general
 
 | Umask	File | result | Directory result |
 |----|----|----|
@@ -47,7 +47,7 @@ umask 0027
 | 077 | 600 rw- --- ---| 700 rwx --- --- |
 | 277 | 400 r-- --- ---| 500 r-x --- --- |
 
-### table setting 
+### Table setting 
 
 | Umask	File | result | Directory result |
 |----|----|----|
@@ -58,13 +58,3 @@ umask 0027
 | 0077 | 0600 rw- --- ---| 0700 rwx --- --- |
 | 0277 | 0400 r-- --- ---| 0500 r-x --- --- |
 
-
-```
-Umask	File result	Directory result
-000	666 rw- rw- rw-	777 rwx rwx rwx
-002	664 rw- rw- r–	775 rwx rwx r-x
-022	644 rw- r-- r–	755 rwx r-x r-x
-027	640 rw- r-- —	750 rwx r-x —
-077	600 rw---- —	700 rwx — —
-277	400 r-- — —	500 r-x — —
-```
