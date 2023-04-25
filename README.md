@@ -1,7 +1,7 @@
 # umask
 umask setting
 
-## check umask 
+## Check Umask 
 
 ```bash
 ubuntu@DESKTOP-MKE4SPH:~$ umask
@@ -30,7 +30,7 @@ ubuntu@DESKTOP-MKE4SPH:~$
 
 ## How to setting
 
-place end file  relogin and test 
+Place end file  Relogin and test
 
 ```bash
 umask 0027
